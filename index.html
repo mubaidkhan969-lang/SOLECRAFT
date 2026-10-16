@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOLECRAFT | Footwear for Men, Women & Kids</title>
+<meta name="description" content="SOLECRAFT: modern, stylish footwear for men, women and kids in Pakistan.">
+<meta property="og:title" content="SOLECRAFT | Step into your style">
+<meta property="og:description" content="Everyday essentials. Statement silhouettes. Your next favourite pair starts here.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23191919'/%3E%3Ctext x='32' y='46' font-size='40' font-weight='900' text-anchor='middle' fill='%23F8F7F3' font-family='Arial'%3ES%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#F8F7F3;--ink:#191919;--w:#fff;--ol:#777A5A;--be:#E8E1D6}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:400 15px/1.6 "Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+button,select,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+h1,h2,h3{font-weight:800;text-transform:uppercase;letter-spacing:-.01em;line-height:1.05}
+h1{font-size:clamp(2.6rem,8vw,5.5rem)}h2{font-size:clamp(1.6rem,4.5vw,2.6rem)}
+:focus-visible{outline:2px solid var(--ol);outline-offset:2px}
+.wrap{max-width:1280px;margin:auto;padding:0 1.2rem}
+.sec{padding:3.5rem 0}
+.sub{color:#555;margin:.5rem 0 1.6rem}
+.btn{display:inline-block;background:var(--ink);color:var(--w);border:1px solid var(--ink);padding:.85rem 1.6rem;font-weight:700;letter-spacing:.1em;font-size:.78rem;text-transform:uppercase;transition:.25s}
+.btn:hover{background:var(--ol);border-color:var(--ol)}
+.btn.o{background:transparent;color:var(--ink)}.btn.o:hover{background:var(--ink);color:var(--w)}
+.btn.w{width:100%;text-align:center}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+#ann{background:var(--ink);color:var(--be);text-align:center;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;padding:.55rem;transition:opacity .4s}
+#hd{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--be)}
+.bar{display:flex;align-items:center;gap:1rem;height:64px}
+.logo{font-weight:900;letter-spacing:.3em;font-size:1.25rem}
+nav{display:flex;gap:1.3rem;margin:0 auto;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+nav>div{position:relative}nav a{padding:1.4rem 0;display:block}
+.dd{display:none;position:absolute;top:100%;left:-1rem;background:var(--w);border:1px solid var(--be);min-width:12rem;padding:.5rem 1rem;z-index:5}
+.dd a{padding:.4rem 0;font-weight:400}
+nav>div:hover .dd,nav>div:focus-within .dd{display:block}
+.ic{display:flex;gap:.9rem;align-items:center}
+.ic button,.ic a{background:none;border:0;position:relative;font-size:.78rem;font-weight:700;letter-spacing:.08em}
+.bdg{position:absolute;top:-8px;right:-12px;background:var(--ol);color:#fff;border-radius:99px;font-size:.62rem;min-width:17px;height:17px;display:grid;place-items:center}
+#mb{display:none;background:none;border:0;font-size:1.4rem}
+#sf{display:none;padding:.6rem 0}#sf.o{display:flex;gap:.5rem}
+#sf input{flex:1;padding:.7rem;border:1px solid var(--ink);background:var(--w)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;min-height:78vh;align-items:stretch}
+.hero .t{padding:4rem 1.2rem 4rem max(1.2rem,calc((100vw - 1280px)/2 + 1.2rem));display:flex;flex-direction:column;justify-content:center;gap:1.3rem}
+.hero .t p{max-width:30rem;font-size:1.1rem}
+.hero .i{background:var(--be);display:grid;place-items:center;padding:2rem}
+.hero .i svg{width:100%;max-width:560px;transform:rotate(-6deg)}
+.row{display:flex;gap:.8rem;flex-wrap:wrap}
+.grid{display:grid;gap:1.2rem;grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}.g6{grid-template-columns:repeat(3,1fr)}
+.cat{background:var(--be);display:block;padding:1rem;position:relative;overflow:hidden}
+.cat svg{width:100%;transition:transform .5s}.cat:hover svg{transform:scale(1.07)}
+.cat b{display:block;text-transform:uppercase;letter-spacing:.06em;margin-top:.4rem}
+.cat span{font-size:.78rem;text-decoration:underline}
+.card{position:relative}
+.card .im{background:var(--be);display:block;padding:1.2rem .8rem;overflow:hidden}
+.card .im svg{width:100%;transition:transform .5s}.card:hover .im svg{transform:scale(1.08)}
+.card .wl{position:absolute;top:.6rem;right:.6rem;background:var(--w);border:0;border-radius:50%;width:34px;height:34px;font-size:1rem}
+.card .wl.on{color:#b3261e}
+.tag{position:absolute;top:.6rem;left:.6rem;background:var(--ink);color:#fff;font-size:.68rem;font-weight:700;padding:.15rem .5rem;letter-spacing:.08em}
+.card h3{font-size:.95rem;text-transform:none;font-weight:700;margin-top:.7rem;letter-spacing:0}
+.card small{color:#666}
+.pr{font-weight:700}.pr s{color:#777;font-weight:400;margin-left:.4rem}
+.sw{display:flex;gap:.3rem;margin:.3rem 0}
+.sw i{width:13px;height:13px;border-radius:50%;border:1px solid #0004}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center}
+.ban{display:grid;align-items:center;padding:3rem 1.5rem;gap:1rem;min-height:340px}
+.b1{background:var(--ink);color:var(--w);grid-template-columns:1.2fr 1fr}
+.b2{background:var(--ol);color:var(--w);text-align:center;justify-items:center}
+.b1 .btn,.b2 .btn{background:var(--w);color:var(--ink);border-color:var(--w)}
+.ban svg{max-width:380px;width:100%}
+.life a{background:var(--be);padding:1.5rem;display:block;min-height:170px}
+.life h3{font-size:1.3rem;margin-bottom:.4rem}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;text-align:center;border-block:1px solid var(--be);padding:2rem 0}
+.empty{border:1px dashed #999;padding:2.5rem;text-align:center;color:#555}
+.nl{display:flex;gap:.5rem;flex-wrap:wrap}
+.nl input{flex:1;min-width:180px;padding:.8rem;border:1px solid var(--ink);background:var(--w)}
+.msg{font-size:.85rem;margin-top:.5rem;min-height:1.2em}
+.err{color:#b3261e}.ok{color:var(--ol);font-weight:700}
+footer{background:var(--ink);color:var(--be);padding:3rem 0 1.5rem;margin-top:3rem}
+footer .grid{grid-template-columns:1.4fr 1fr 1fr 1fr 1.4fr}
+footer h4{color:#fff;letter-spacing:.14em;font-size:.75rem;margin-bottom:.7rem}
+footer a{display:block;padding:.15rem 0;opacity:.85}footer a:hover{opacity:1;text-decoration:underline}
+footer .nl input{background:#2a2a2a;color:#fff;border-color:#555}
+footer .btn{background:var(--be);color:var(--ink);border-color:var(--be)}
+.crumb{font-size:.78rem;color:#666;padding:1.2rem 0 .4rem}
+.fl{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin:1rem 0;padding:.8rem 0;border-block:1px solid var(--be)}
+.fl select,.fl label{padding:.5rem;border:1px solid #bbb;background:var(--w);font-size:.85rem}
+.fl .x{border:0;background:none;text-decoration:underline}
+.chip{background:var(--be);padding:.15rem .6rem;font-size:.78rem;border-radius:99px}
+.pd{display:grid;grid-template-columns:1.2fr 1fr;gap:2.5rem;padding:1rem 0 3rem}
+.pd .big{background:var(--be);padding:2rem;display:grid;place-items:center}
+.th{display:flex;gap:.6rem;margin-top:.6rem}
+.th button{background:var(--be);border:2px solid transparent;width:84px;padding:.3rem}
+.th button.on{border-color:var(--ink)}
+.sz{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0 1rem}
+.sz button,.cl button{min-width:48px;height:44px;background:var(--w);border:1px solid #aaa}
+.sz button.on,.cl button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.cl{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0 1rem}.cl button{padding:0 .9rem}
+.qty{display:inline-flex;border:1px solid #aaa;margin:.5rem 0 1rem;background:var(--w)}
+.qty button{width:40px;height:40px;border:0;background:none;font-size:1.1rem}.qty span{width:40px;display:grid;place-items:center}
+details{border-top:1px solid var(--be);padding:.8rem 0}summary{font-weight:700;cursor:pointer}
+#sh{position:fixed;inset:0;background:#0008;z-index:40;display:none}#sh.o{display:block}
+#dr{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--bg);z-index:41;transform:translateX(100%);transition:transform .3s;display:flex;flex-direction:column;padding:1.2rem}
+#dr.o{transform:none}
+.ci{display:grid;grid-template-columns:78px 1fr;gap:.8rem;padding:.8rem 0;border-bottom:1px solid var(--be)}
+.ci .im{background:var(--be);padding:.2rem}
+.ci button{background:none;border:0;text-decoration:underline;font-size:.78rem}
+dialog{border:0;padding:1.5rem;max-width:560px;width:92%;background:var(--bg)}dialog::backdrop{background:#0008}
+table{border-collapse:collapse;width:100%;font-size:.85rem}td,th{border:1px solid var(--be);padding:.35rem .5rem;text-align:center}
+.f{display:grid;gap:.8rem;max-width:560px}.f input,.f select,.f textarea{padding:.7rem;border:1px solid #aaa;background:var(--w);width:100%}
+#ts{position:fixed;left:50%;bottom:1.2rem;transform:translate(-50%,40px);background:var(--ink);color:#fff;padding:.7rem 1.3rem;opacity:0;transition:.3s;z-index:60}#ts.s{opacity:1;transform:translate(-50%,0)}
+@media(max-width:900px){
+nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);flex-direction:column;gap:0;padding:.5rem 1.2rem 1rem;border-bottom:1px solid var(--be)}nav.o{display:flex}
+nav a{padding:.7rem 0}.dd{display:none!important}#mb{display:block}.bar .logo{margin-right:auto}
+.hero,.split,.pd,.b1{grid-template-columns:1fr}.hero{min-height:0}.hero .t{padding:2.5rem 1.2rem}
+.grid,.g3,footer .grid{grid-template-columns:repeat(2,1fr)}.g6{grid-template-columns:repeat(2,1fr)}.trust{grid-template-columns:repeat(2,1fr)}
+footer .grid>div:first-child,footer .grid>div:last-child{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div id="ann" role="status"></div>
+<header id="hd"><div class="wrap">
+<div class="bar"><button id="mb" aria-label="Menu">☰</button><a class="logo" href="#/">SOLECRAFT</a>
+<nav id="nv" aria-label="Main">
+<a href="#/">Home</a>
+<div><a href="#/c/men">Men</a><div class="dd"><a href="#/c/men">All Men</a><a href="#/c/men/sneakers">Sneakers</a><a href="#/c/men/casual">Casual</a><a href="#/c/men/formal">Formal</a><a href="#/c/men/sandals">Sandals &amp; Slides</a></div></div>
+<div><a href="#/c/women">Women</a><div class="dd"><a href="#/c/women">All Women</a><a href="#/c/women/sneakers">Sneakers</a><a href="#/c/women/casual">Casual</a><a href="#/c/women/formal">Formal</a><a href="#/c/women/sandals">Sandals &amp; Slides</a></div></div>
+<div><a href="#/c/kids">Kids</a><div class="dd"><a href="#/c/kids">All Kids</a><a href="#/c/kids/sneakers">Sneakers</a><a href="#/c/kids/casual">Casual</a><a href="#/c/kids/sandals">Sandals &amp; Slides</a></div></div>
+<a href="#/c/sneakers">Sneakers</a><a href="#/c/formal">Formal Shoes</a><a href="#/c/sandals">Sandals &amp; Slides</a><a href="#/c/sale">Sale</a>
+</nav>
+<div class="ic"><button data-a="srch" aria-label="Search">Search</button><a href="#/w" aria-label="Wishlist">♡<span class="bdg" id="wb">0</span></a><button data-a="cart" aria-label="Cart">Bag<span class="bdg" id="cb">0</span></button></div></div>
+<form id="sf" role="search"><input id="sq" placeholder="Search shoes or categories" aria-label="Search"><button class="btn">Search</button></form>
+</div></header>
+<main id="app"></main>
+<footer><div class="wrap"><div class="grid">
+<div><div class="logo" style="color:#fff">SOLECRAFT</div><p style="margin-top:.6rem;max-width:20rem">Modern, stylish footwear for men, women and kids. Your next favourite pair starts here.</p><p style="margin-top:.6rem" id="soc"></p></div>
+<div><h4>SHOP</h4><a href="#/c/all">All Shoes</a><a href="#/c/men">Men</a><a href="#/c/women">Women</a><a href="#/c/kids">Kids</a><a href="#/c/sneakers">Sneakers</a><a href="#/c/new">New Arrivals</a><a href="#/c/sale">Sale</a></div>
+<div><h4>CUSTOMER CARE</h4><a href="#/pg/contact">Contact Us</a><a href="#/pg/faq">FAQ</a><a href="#/pg/size">Size Guide</a><a href="#/pg/shipping">Shipping Policy</a><a href="#/pg/returns">Returns &amp; Exchanges</a></div>
+<div><h4>ABOUT</h4><a href="#/pg/about">Our Story</a><a href="#/pg/privacy">Privacy Policy</a><a href="#/pg/terms">Terms &amp; Conditions</a></div>
+<div><h4>NEWSLETTER</h4><form class="nl" novalidate><input type="email" placeholder="Your email" aria-label="Email"><button class="btn">Subscribe</button></form><div class="msg" role="status"></div></div>
+</div><p style="margin-top:2rem;font-size:.78rem;opacity:.7">© <span id="yr"></span> SOLECRAFT. Demo store: sample products and prices.</p></div></footer>
+<div id="sh" data-a="close"></div>
+<aside id="dr" aria-label="Shopping bag"></aside>
+<dialog id="sg"></dialog>
+<div id="ts" role="status"></div>
+<script>
+const CFG={brand:'SOLECRAFT',ship:250,email:'hello@example.com',phone:'+92 000 0000000',wa:'',social:[['Instagram','#'],['Facebook','#']],
+announce:['Discover Your Next Favourite Pair','New Season Styles Are Here','Easy Shopping Across Pakistan','Find Your Perfect Fit']};
+const $=s=>document.querySelector(s),ls=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}},sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+let cart=ls('sc_cart',[]),wish=ls('sc_wish',[]),rec=ls('sc_rec',[]);
+const pkr=n=>'Rs. '+n.toLocaleString('en-US');
+const COL={White:'#f4f2ee',Black:'#222',Olive:'#777A5A',Beige:'#d8cdb8',Tan:'#a9744a',Navy:'#26344f',Grey:'#8a8a8a',Brown:'#5b3a29',Blush:'#d9b8b0'};
+const TL={sneakers:'Sneakers',casual:'Casual Shoes',formal:'Formal Shoes',sandals:'Sandals & Slides'};
+const SZ={men:[6,7,8,9,10,11],women:[3,4,5,6,7,8],kids:[11,12,13,1,2,3]};
+const P=[
+['everyday-white-sneakers','Everyday White Sneakers','men','sneakers',5499,0,['White','Black'],12,'b'],
+['urban-runner-sneakers','Urban Runner Sneakers','men','sneakers',6999,8499,['Grey','Navy','Black'],9,'b'],
+['classic-leather-loafers','Classic Leather Loafers','men','formal',7499,0,['Brown','Black'],6,'b'],
+['minimal-court-sneakers','Minimal Court Sneakers','women','sneakers',5999,0,['White','Beige'],10,'bn'],
+['everyday-comfort-slides','Everyday Comfort Slides','men','sandals',1999,0,['Black','Olive','Beige'],20,'b'],
+['womens-everyday-flats','Women\'s Everyday Flats','women','casual',3499,0,['Blush','Black','Tan'],14,'b'],
+['premium-formal-derby','Premium Formal Derby Shoes','men','formal',8999,0,['Black','Brown'],5,'bn'],
+['kids-everyday-sneakers','Kids\' Everyday Sneakers','kids','sneakers',3299,0,['White','Navy'],15,'b'],
+['canvas-low-tops','Canvas Low-Tops','men','casual',3999,4999,['Olive','White','Navy'],18,''],
+['womens-block-heels','Women\'s Block Heels','women','formal',5499,0,['Black','Beige'],7,'n'],
+['womens-strap-sandals','Women\'s Strap Sandals','women','sandals',2799,3499,['Tan','Black'],11,''],
+['kids-velcro-shoes','Kids\' Velcro Shoes','kids','casual',2599,3199,['Grey','Navy'],0,''],
+['slip-on-casuals','Slip-On Casuals','men','casual',4299,0,['Tan','Grey'],13,'n'],
+['womens-platform-sneakers','Women\'s Platform Sneakers','women','sneakers',6499,0,['White','Blush'],8,'n'],
+['kids-slides','Kids\' Slides','kids','sandals',1499,0,['Olive','Black'],16,''],
+['oxford-brogues','Oxford Brogues','men','formal',9499,11499,['Brown','Black'],4,'']
+].map(a=>({id:a[0],name:a[1],aud:a[2],type:a[3],price:a[4],orig:a[5],colors:a[6],stock:a[7],best:/b/.test(a[8]),isNew:/n/.test(a[8]),sizes:SZ[a[2]],desc:'A sample SOLECRAFT '+TL[a[3]].toLowerCase()+' for '+(a[2]=='kids'?'kids':a[2]+'\'s wardrobes')+'. Replace this text with your real product description.'}));
+const C={all:['All Shoes',p=>1],men:['Men',p=>p.aud=='men'],women:['Women',p=>p.aud=='women'],kids:['Kids',p=>p.aud=='kids'],sneakers:['Sneakers',p=>p.type=='sneakers'],casual:['Casual Shoes',p=>p.type=='casual'],formal:['Formal Shoes',p=>p.type=='formal'],sandals:['Sandals & Slides',p=>p.type=='sandals'],new:['New Arrivals',p=>p.isNew],sale:['Sale',p=>p.orig]};
+const byId=id=>P.find(p=>p.id==id),off=p=>Math.round((1-p.price/p.orig)*100);
+function shoe(t,c,lab){const f=COL[c]||'#ccc',k='stroke="#191919" stroke-width="2" stroke-linejoin="round"';let b;
+if(t=='formal')b=`<path d="M10 68Q10 52 30 50L62 46Q82 30 104 36L132 46Q182 52 192 66Q194 76 184 76H18Q10 76 10 68Z" fill="${f}" ${k}/><path d="M10 76H192V82H10Z" fill="#191919"/><path d="M150 48Q168 56 172 70" fill="none" ${k}/>`;
+else if(t=='sandals')b=`<path d="M14 74Q10 62 30 60L150 56Q190 54 192 68Q192 80 170 80H30Q16 80 14 74Z" fill="#fff" ${k}/><path d="M62 60Q100 22 148 56" fill="none" stroke="#191919" stroke-width="9"/><path d="M62 60Q100 22 148 56" fill="none" stroke="${f}" stroke-width="6"/>`;
+else b=`<path d="M12 72V54Q32 52 50 40L72 22Q82 18 90 27L106 45Q132 50 160 56Q188 61 190 73Z" fill="${f}" ${k}/><path d="M10 73H190V82Q190 88 182 88H18Q10 88 10 82Z" fill="#fff" ${k}/><path d="M78 32l12 10M88 26l12 12M98 38l10 8" fill="none" ${k}/>`;
+return`<svg viewBox="0 0 200 100" role="img" aria-label="${lab||'Shoe'}"><ellipse cx="100" cy="94" rx="86" ry="4" fill="#0002"/>${b}</svg>`}
+function card(p){const w=wish.includes(p.id);return`<div class="card"><a class="im" href="#/p/${p.id}">${shoe(p.type,p.colors[0],p.name+' in '+p.colors[0])}</a>${p.orig?`<span class="tag">-${off(p)}%</span>`:p.isNew?'<span class="tag">NEW</span>':''}<button class="wl ${w?'on':''}" data-a="w" data-id="${p.id}" aria-label="Wishlist" aria-pressed="${w}">${w?'♥':'♡'}</button><h3><a href="#/p/${p.id}">${p.name}</a></h3><small>${p.aud[0].toUpperCase()+p.aud.slice(1)} · ${TL[p.type]}</small><div class="sw">${p.colors.map(c=>`<i title="${c}" style="background:${COL[c]}"></i>`).join('')}</div><div class="pr">${pkr(p.price)}${p.orig?`<s>${pkr(p.orig)}</s>`:''}</div><a class="btn o" style="margin-top:.5rem;padding:.55rem 1rem" href="#/p/${p.id}">${p.stock?'Select size':'View'}</a></div>`}
+const grid=(l,c='')=>`<div class="grid ${c}">${l.map(card).join('')}</div>`;
+const catT=[['Men\'s Sneakers','men/sneakers','sneakers','Olive'],['Women\'s Footwear','women','casual','Blush'],['Casual Shoes','casual','casual','Tan'],['Formal Shoes','formal','formal','Brown'],['Sandals & Slides','sandals','sandals','Black'],['Kids\' Shoes','kids','sneakers','Navy']];
+function home(){const s=P.filter(p=>p.orig);return`
+<section class="hero"><div class="t"><span style="letter-spacing:.2em;font-size:.75rem;font-weight:700">NEW SEASON</span><h1>Step into your style.</h1><p>Everyday essentials. Statement silhouettes. Your next favourite pair starts here.</p><div class="row"><a class="btn" href="#/c/all">Shop the collection</a><a class="btn o" href="#/c/new">Explore new arrivals</a></div></div><div class="i">${shoe('sneakers','White','Illustration of a white sneaker')}</div></section>
+<section class="sec wrap"><h2>Find your fit</h2><p class="sub">Styles for every step of your day.</p><div class="grid g6">${catT.map(c=>`<a class="cat" href="#/c/${c[1]}">${shoe(c[2],c[3],c[0])}<b>${c[0]}</b><span>Shop now</span></a>`).join('')}</div></section>
+<section class="sec wrap"><h2>The pairs everyone loves</h2><p class="sub">Discover everyday favourites and standout styles.</p>${grid(P.filter(p=>p.best).slice(0,8))}</section>
+<section class="sec wrap"><div class="split"><div class="cat" style="padding:2rem">${shoe('formal','Tan','New arrival')}</div><div><h2>Just landed</h2><p class="sub">Fresh silhouettes. Thoughtful details. Everyday confidence.</p>${grid(P.filter(p=>p.isNew).slice(0,4),'g3" style="grid-template-columns:1fr 1fr')}<a class="btn" style="margin-top:1.2rem" href="#/c/new">Shop new arrivals</a></div></div></section>
+<section class="ban b1"><div><h2>Made for everyday movement</h2><p class="sub" style="color:#ddd">Comfortable everyday styles for busy days and spontaneous plans.</p><a class="btn" href="#/c/casual">Shop casuals</a></div>${shoe('sneakers','Olive','Olive sneaker')}</section>
+<section class="ban b2"><h2>Dress the occasion</h2><p style="max-width:30rem">Refined footwear for celebrations, formal occasions, and everything in between.</p><a class="btn" href="#/c/formal">Explore formals</a></section>
+<section class="sec wrap life"><h2>Shop by lifestyle</h2><p class="sub">Shop by how you'll wear them.</p><div class="grid g3"><a href="#/c/sneakers"><h3>Everyday Essentials</h3>Easy sneakers for every day.</a><a href="#/c/formal"><h3>Work &amp; Occasion</h3>Polished pairs for important days.</a><a href="#/c/sandals"><h3>Weekend Comfort</h3>Slides and sandals for slow days.</a></div></section>
+<section class="sec wrap"><h2>Good finds. Better prices.</h2><p class="sub">Discounts are calculated from product data.</p>${grid(s.slice(0,4))}<a class="btn o" style="margin-top:1.2rem" href="#/c/sale">View sale</a></section>
+<section class="wrap"><div class="trust"><div><b>Easy Online Shopping</b><br>Browse, filter, and order in a few taps.</div><div><b>Secure Shopping</b><br>Payment details: to be confirmed.</div><div><b>Helpful Support</b><br>Reach us via the contact page.</div><div><b>Delivery &amp; Returns</b><br>See our policy pages.</div></div></section>
+<section class="sec wrap"><h2>The fit speaks for itself</h2><p class="sub">Customer reviews</p><div class="empty">Real customer reviews will appear here once they are connected. No sample reviews are shown.</div></section>
+<section class="sec wrap split"><div class="cat" style="padding:3rem">${shoe('sneakers','Beige','Beige sneaker')}</div><div><h2>Good shoes. Great days.</h2><p class="sub">At SOLECRAFT, we believe the right pair of shoes brings together personal style, everyday comfort, and confidence. Our goal is to make discovering your next favourite pair simple, enjoyable, and inspiring.</p><a class="btn" href="#/pg/about">Discover our story</a></div></section>
+<section class="sec wrap" style="text-align:center"><h2>Good style starts here.</h2><p class="sub">Be the first to discover new arrivals, style inspiration, and special offers.</p><form class="nl" style="max-width:480px;margin:auto" novalidate><input type="email" placeholder="Your email" aria-label="Email"><button class="btn">Subscribe</button></form><div class="msg" role="status"></div></section>`}
+const F={sort:'f',type:'',size:'',color:'',max:'',stock:false,n:8};let FS='';
+function col(slug,type){if(!C[slug])return nf();if(FS!=slug+'/'+type){FS=slug+'/'+type;Object.assign(F,{sort:'f',type:type||'',size:'',color:'',max:'',stock:false,n:8})}
+let l=P.filter(C[slug][1]);const pool=l;
+if(F.type)l=l.filter(p=>p.type==F.type);if(F.size)l=l.filter(p=>p.sizes.includes(+F.size));if(F.color)l=l.filter(p=>p.colors.includes(F.color));if(F.max)l=l.filter(p=>p.price<=+F.max);if(F.stock)l=l.filter(p=>p.stock>0);
+if(F.sort=='n')l.sort((a,b)=>b.isNew-a.isNew);if(F.sort=='lo')l.sort((a,b)=>a.price-b.price);if(F.sort=='hi')l.sort((a,b)=>b.price-a.price);
+const sizes=[...new Set(pool.flatMap(p=>p.sizes))].sort((a,b)=>a-b),cols=[...new Set(pool.flatMap(p=>p.colors))],types=[...new Set(pool.map(p=>p.type))];
+const act=[F.type&&TL[F.type],F.size&&'Size '+F.size,F.color,F.max&&'Under '+pkr(+F.max),F.stock&&'In stock'].filter(Boolean);
+const o=(v,t,cur)=>`<option value="${v}" ${cur==v?'selected':''}>${t}</option>`;
+return`<div class="wrap"><div class="crumb"><a href="#/">Home</a> / ${C[slug][0]}</div><h2>${C[slug][0]}</h2><p class="sub">${l.length} product${l.length==1?'':'s'}</p>
+<div class="fl"><select data-f="sort" aria-label="Sort">${o('f','Featured',F.sort)}${o('n','Newest',F.sort)}${o('lo','Price: low to high',F.sort)}${o('hi','Price: high to low',F.sort)}</select>
+<select data-f="type" aria-label="Category">${o('','All categories',F.type)}${types.map(t=>o(t,TL[t],F.type)).join('')}</select>
+<select data-f="size" aria-label="Size">${o('','Any size',F.size)}${sizes.map(s=>o(s,'Size '+s,F.size)).join('')}</select>
+<select data-f="color" aria-label="Color">${o('','Any color',F.color)}${cols.map(s=>o(s,s,F.color)).join('')}</select>
+<select data-f="max" aria-label="Price">${o('','Any price',F.max)}${[3000,5000,7000].map(v=>o(v,'Under '+pkr(v),F.max)).join('')}</select>
+<label><input type="checkbox" data-f="stock" ${F.stock?'checked':''}> In stock</label>${act.length?`<button class="x" data-a="clr">Clear filters</button>`:''}</div>
+${act.length?`<div class="row" style="margin-bottom:1rem">${act.map(a=>`<span class="chip">${a}</span>`).join('')}</div>`:''}
+${l.length?grid(l.slice(0,F.n)):'<div class="empty">No products match these filters. <button class="x" data-a="clr" style="text-decoration:underline;background:none;border:0">Clear filters</button></div>'}
+${l.length>F.n?'<p style="text-align:center;margin-top:1.5rem"><button class="btn o" data-a="more">Load more</button></p>':''}</div>`}
+const S={c:'',s:'',q:1,id:''};
+function prod(id){const p=byId(id);if(!p)return nf();if(S.id!=id){Object.assign(S,{id,c:p.colors[0],s:'',q:1});rec=[id,...rec.filter(x=>x!=id)].slice(0,6);sv('sc_rec',rec)}
+const w=wish.includes(id),r=rec.filter(x=>x!=id).map(byId).filter(Boolean).slice(0,4),rel=P.filter(x=>x.id!=id&&(x.type==p.type||x.aud==p.aud)).slice(0,4);
+return`<div class="wrap"><div class="crumb"><a href="#/">Home</a> / <a href="#/c/${p.aud}">${p.aud[0].toUpperCase()+p.aud.slice(1)}</a> / ${p.name}</div><div class="pd"><div><div class="big">${shoe(p.type,S.c,p.name+' in '+S.c)}</div><div class="th">${p.colors.map(c=>`<button data-a="col" data-v="${c}" class="${c==S.c?'on':''}" aria-label="${c} view">${shoe(p.type,c,c)}</button>`).join('')}</div></div>
+<div><h2>${p.name}</h2><p class="pr" style="font-size:1.4rem;margin:.6rem 0">${pkr(p.price)}${p.orig?`<s>${pkr(p.orig)}</s> <span class="chip">-${off(p)}%</span>`:''}</p><p>${p.stock?'In stock':'<b>Out of stock</b>'}</p>
+<p style="margin-top:1rem"><b>Color:</b> ${S.c}</p><div class="cl">${p.colors.map(c=>`<button data-a="col" data-v="${c}" class="${c==S.c?'on':''}" aria-pressed="${c==S.c}">${c}</button>`).join('')}</div>
+<p><b>Size (UK):</b> <button data-a="sg" style="background:none;border:0;text-decoration:underline">Size guide</button></p><div class="sz">${p.sizes.map(s=>`<button data-a="sz" data-v="${s}" class="${s==S.s?'on':''}" aria-pressed="${s==S.s}">${s}</button>`).join('')}</div>
+<div class="qty"><button data-a="q" data-v="-1" aria-label="Less">−</button><span>${S.q}</span><button data-a="q" data-v="1" aria-label="More">+</button></div>
+<div class="err msg" id="pe" role="alert"></div><div class="row"><button class="btn" data-a="add" data-id="${id}" ${p.stock?'':'disabled'}>Add to cart</button><button class="btn o" data-a="buy" data-id="${id}" ${p.stock?'':'disabled'}>Buy now</button><button class="btn o" data-a="w" data-id="${id}" aria-pressed="${w}">${w?'♥ Saved':'♡ Wishlist'}</button></div>
+<details open style="margin-top:1.5rem"><summary>Description</summary><p>${p.desc}</p></details><details><summary>Materials &amp; care</summary><p>Add materials and care details for this product.</p></details><details><summary>Delivery &amp; returns</summary><p>See our <a href="#/pg/shipping"><u>shipping policy</u></a> and <a href="#/pg/returns"><u>returns policy</u></a>.</p></details></div></div>
+<h2 style="font-size:1.4rem;margin-bottom:1rem">You may also like</h2>${grid(rel)}${r.length?`<h2 style="font-size:1.4rem;margin:2.5rem 0 1rem">Recently viewed</h2>${grid(r)}`:''}</div>`}
+const nf=()=>'<div class="wrap sec"><h2>Page not found</h2><p class="sub"><a href="#/c/all"><u>Back to shop</u></a></p></div>';
+function srch(q){const t=q.toLowerCase(),l=P.filter(p=>(p.name+' '+TL[p.type]+' '+p.aud+' '+p.colors.join(' ')).toLowerCase().includes(t));return`<div class="wrap sec"><h2>Search: ${q.replace(/</g,'&lt;')}</h2><p class="sub">${l.length} result${l.length==1?'':'s'}</p>${l.length?grid(l):'<div class="empty">No matches. Try “sneakers”, “men” or “black”.</div>'}</div>`}
+const tot=()=>cart.reduce((a,i)=>a+byId(i.id).price*i.qty,0);
+function drawer(){$('#dr').innerHTML=`<div style="display:flex;justify-content:space-between"><h3>Your bag</h3><button data-a="close" style="background:none;border:0;font-size:1.4rem" aria-label="Close">✕</button></div><div style="flex:1;overflow:auto">${cart.length?cart.map((i,k)=>{const p=byId(i.id);return`<div class="ci"><div class="im">${shoe(p.type,i.color,p.name)}</div><div><b>${p.name}</b><br><small>${i.color} · UK ${i.size}</small><br>${pkr(p.price)} × ${i.qty}<br><button data-a="cq" data-k="${k}" data-v="-1">−</button> <button data-a="cq" data-k="${k}" data-v="1">+</button> <button data-a="rm" data-k="${k}">Remove</button></div></div>`}).join(''):'<p style="margin-top:2rem">Your bag is empty.</p>'}</div>
+<div style="padding-top:1rem"><p>Subtotal: <b>${pkr(tot())}</b></p>${cart.length?`<p>Shipping (sample): ${pkr(CFG.ship)}</p><p><b>Total: ${pkr(tot()+CFG.ship)}</b></p><a class="btn w" data-a="close" href="#/checkout">Checkout</a>`:''}<button class="btn o w" data-a="close" style="margin-top:.5rem">Continue shopping</button></div>`}
+function checkout(){if(!cart.length)return'<div class="wrap sec"><h2>Checkout</h2><p class="sub">Your bag is empty. <a href="#/c/all"><u>Continue shopping</u></a></p></div>';
+return`<div class="wrap sec"><h2>Checkout</h2><div class="split" style="align-items:start;margin-top:1.5rem"><form class="f" id="co" novalidate><input name="n" placeholder="Full name" aria-label="Full name"><input name="ph" placeholder="Phone (03XX XXXXXXX)" aria-label="Phone"><input name="em" type="email" placeholder="Email (optional)" aria-label="Email"><textarea name="ad" rows="3" placeholder="Complete delivery address" aria-label="Address"></textarea><input name="ct" placeholder="City" aria-label="City"><select name="pv" aria-label="Province"><option value="">Province</option><option>Sindh</option><option>Punjab</option><option>Khyber Pakhtunkhwa</option><option>Balochistan</option><option>Islamabad Capital Territory</option><option>Gilgit-Baltistan</option><option>Azad Kashmir</option></select><input name="pc" placeholder="Postal code (optional)" aria-label="Postal code"><label><input type="radio" name="pm" checked style="width:auto"> Cash on Delivery</label><div class="err msg" id="fe" role="alert"></div><button class="btn">Place demo order</button></form>
+<div><h3>Order summary</h3>${cart.map(i=>{const p=byId(i.id);return`<p>${p.name} (${i.color}, UK ${i.size}) × ${i.qty} <b style="float:right">${pkr(p.price*i.qty)}</b></p>`}).join('')}<hr><p>Subtotal <b style="float:right">${pkr(tot())}</b></p><p>Shipping (sample) <b style="float:right">${pkr(CFG.ship)}</b></p><p><b>Total <span style="float:right">${pkr(tot()+CFG.ship)}</span></b></p><p class="sub">This is a demo: no order is saved or sent to anyone.</p></div></div></div>`}
+const SG=`<h3>Size guide</h3><p class="sub">Approximate conversions. Brands vary, so use foot length as your guide.</p><table><tr><th>UK</th><th>EU</th><th>US Men</th><th>US Women</th><th>Foot (cm)</th></tr><tr><td>5</td><td>38</td><td>6</td><td>7.5</td><td>24.0</td></tr><tr><td>6</td><td>39</td><td>7</td><td>8.5</td><td>24.6</td></tr><tr><td>7</td><td>41</td><td>8</td><td>9.5</td><td>25.4</td></tr><tr><td>8</td><td>42</td><td>9</td><td>10.5</td><td>26.0</td></tr><tr><td>9</td><td>43</td><td>10</td><td>11.5</td><td>26.7</td></tr><tr><td>10</td><td>44.5</td><td>11</td><td>12.5</td><td>27.3</td></tr></table><p style="margin-top:.8rem"><b>How to measure:</b> stand on paper, mark your heel and longest toe, and measure the distance in cm. Edit this chart for your own brands.</p>`;
+const PL='<p>This is placeholder text. Replace it with your confirmed store information before launch.</p>';
+const PG={about:['About Us','<p>At SOLECRAFT, we believe the right pair of shoes brings together personal style, everyday comfort, and confidence.</p>'+PL],faq:['FAQ','<details open><summary>How do I choose my size?</summary><p>Use the size guide on each product page.</p></details><details><summary>How do I order?</summary><p>Select a size, add to cart, and check out.</p></details>'+PL],shipping:['Shipping Policy',PL],returns:['Return & Exchange Policy',PL],privacy:['Privacy Policy',PL],terms:['Terms & Conditions',PL],size:['Size Guide',SG],
+contact:['Contact Us',`<p>Email: ${CFG.email}<br>Phone: ${CFG.phone}</p>${CFG.wa?`<a class="btn" href="https://wa.me/${CFG.wa}">WhatsApp</a>`:''}<form class="f" id="ct" novalidate style="margin-top:1rem"><input name="n" placeholder="Your name" aria-label="Name"><input name="e" type="email" placeholder="Your email" aria-label="Email"><textarea name="m" rows="4" placeholder="Message" aria-label="Message"></textarea><div class="msg" role="status"></div><button class="btn">Send</button></form>`],
+done:['Order placed (demo)','<p>Thank you! This was a <b>demo order</b>. Nothing was saved or sent. Connect a real order system to take real orders.</p><a class="btn" href="#/">Back to home</a>']};
+function render(){const h=location.hash.slice(2),[a,b,c]=h.split('/');let x;
+if(!a)x=home();else if(a=='c')x=col(b,c);else if(a=='p')x=prod(b);else if(a=='s')x=srch(decodeURIComponent(b||''));else if(a=='w'){const l=wish.map(byId).filter(Boolean);x=`<div class="wrap sec"><h2>Wishlist</h2><p class="sub">${l.length} saved</p>${l.length?grid(l):'<div class="empty">Nothing saved yet. Tap ♡ on any shoe.</div>'}</div>`}
+else if(a=='checkout')x=checkout();else if(a=='pg'&&PG[b])x=`<div class="wrap sec" style="max-width:760px"><h2>${PG[b][0]}</h2><div style="margin-top:1.2rem">${PG[b][1]}</div></div>`;else x=nf();
+$('#app').innerHTML=x;$('#nv').classList.remove('o')}
+function upd(){$('#cb').textContent=cart.reduce((a,i)=>a+i.qty,0);$('#wb').textContent=wish.length;sv('sc_cart',cart);sv('sc_wish',wish);drawer()}
+function toast(t){const e=$('#ts');e.textContent=t;e.classList.add('s');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('s'),2200)}
+function open(){$('#dr').classList.add('o');$('#sh').classList.add('o')}
+function close(){$('#dr').classList.remove('o');$('#sh').classList.remove('o')}
+function addC(id){const p=byId(id);if(!S.s){$('#pe').textContent='Please select a size first.';return false}
+const i=cart.find(x=>x.id==id&&x.size==S.s&&x.color==S.c);if(i)i.qty=Math.min(p.stock,i.qty+S.q);else cart.push({id,size:S.s,color:S.c,qty:Math.min(p.stock,S.q)});upd();return true}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-a]');if(!t)return;const a=t.dataset.a,v=t.dataset.v,id=t.dataset.id;
+if(a=='srch'){$('#sf').classList.toggle('o');$('#sq').focus()}
+else if(a=='cart')open();else if(a=='close')close();
+else if(a=='w'){wish=wish.includes(id)?wish.filter(x=>x!=id):[...wish,id];upd();toast(wish.includes(id)?'Saved to wishlist':'Removed from wishlist');render()}
+else if(a=='col'){S.c=v;render()}else if(a=='sz'){S.s=+v;render()}else if(a=='q'){S.q=Math.max(1,Math.min(10,S.q+ +v));render()}
+else if(a=='add'){if(addC(id)){toast('Added to bag');open()}}else if(a=='buy'){if(addC(id)){location.hash='#/checkout'}}
+else if(a=='cq'){const i=cart[+t.dataset.k];i.qty+=+v;if(i.qty<1)cart.splice(+t.dataset.k,1);else i.qty=Math.min(i.qty,byId(i.id).stock);upd()}
+else if(a=='rm'){cart.splice(+t.dataset.k,1);upd()}
+else if(a=='clr'){Object.assign(F,{type:'',size:'',color:'',max:'',stock:false});render()}else if(a=='more'){F.n+=8;render()}
+else if(a=='sg'){$('#sg').innerHTML=SG+'<form method="dialog"><button class="btn" style="margin-top:1rem">Close</button></form>';$('#sg').showModal()}});
+document.addEventListener('change',e=>{const k=e.target.dataset.f;if(!k)return;F[k]=e.target.type=='checkbox'?e.target.checked:e.target.value;F.n=8;render()});
+document.addEventListener('submit',e=>{e.preventDefault();const f=e.target,m=f.nextElementSibling,em=f.querySelector('input[type=email]'),ok=/^\S+@\S+\.\S+$/;
+if(f.id=='sf'){const q=$('#sq').value.trim();if(q){location.hash='#/s/'+encodeURIComponent(q);$('#sf').classList.remove('o')}}
+else if(f.classList.contains('nl')){m.className='msg '+(ok.test(em.value)?'ok':'err');m.textContent=ok.test(em.value)?'Demo only: your email was NOT saved. Connect an email service to collect subscribers.':'Please enter a valid email address.'}
+else if(f.id=='ct'){const d=new FormData(f),m2=f.querySelector('.msg');const g=!d.get('n').trim()?'Please enter your name.':!ok.test(d.get('e'))?'Please enter a valid email.':!d.get('m').trim()?'Please write a message.':'';m2.className='msg '+(g?'err':'ok');m2.textContent=g||'Demo only: your message was NOT sent. Connect a form service to receive messages.'}
+else if(f.id=='co'){const d=new FormData(f),g=!d.get('n').trim()?'Please enter your full name.':!/^(\+?92|0)?3\d{9}$/.test(d.get('ph').replace(/[\s-]/g,''))?'Please enter a valid Pakistani mobile number.':d.get('em')&&!ok.test(d.get('em'))?'Please enter a valid email or leave it empty.':d.get('ad').trim().length<8?'Please enter your complete address.':!d.get('ct').trim()?'Please enter your city.':!d.get('pv')?'Please choose a province.':'';
+$('#fe').textContent=g;if(!g){cart=[];upd();location.hash='#/pg/done'}}});
+$('#mb').onclick=()=>$('#nv').classList.toggle('o');
+addEventListener('hashchange',()=>{render();scrollTo(0,0)});
+addEventListener('keydown',e=>{if(e.key=='Escape')close()});
+$('#yr').textContent=new Date().getFullYear();
+$('#soc').innerHTML=CFG.social.map(s=>`<a href="${s[1]}" style="display:inline;margin-right:.8rem">${s[0]}</a>`).join('');
+let ai=0;const an=$('#ann');an.textContent=CFG.announce[0];setInterval(()=>{ai=(ai+1)%CFG.announce.length;an.style.opacity=0;setTimeout(()=>{an.textContent=CFG.announce[ai];an.style.opacity=1},400)},3600);
+upd();render();
+</script>
+</body>
+</html>
